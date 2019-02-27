@@ -1,0 +1,3 @@
+D:\Source\git\ci\testapi 2.0\testapi2\testapi2\obj\Debug\netcoreapp2.1\testapi2.csproj.CoreCompileInputs.cache
+D:\Source\git\ci\testapi 2.0\testapi2\testapi2\obj\Debug\netcoreapp2.1\testapi2.AssemblyInfoInputs.cache
+D:\Source\git\ci\testapi 2.0\testapi2\testapi2\obj\Debug\netcoreapp2.1\testapi2.AssemblyInfo.cs

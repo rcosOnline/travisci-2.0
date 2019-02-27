@@ -11913,11 +11913,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Source\\git\\ci\\testapi 2.0\\testapi2\\testapi2\\testapi2.csproj",
+      "projectUniqueName": "D:\\Source\\git\\ci\\testapi 2.0\\testapi2\\travisci-2.0\\testapi2\\testapi2.csproj",
       "projectName": "testapi2",
-      "projectPath": "D:\\Source\\git\\ci\\testapi 2.0\\testapi2\\testapi2\\testapi2.csproj",
+      "projectPath": "D:\\Source\\git\\ci\\testapi 2.0\\testapi2\\travisci-2.0\\testapi2\\testapi2.csproj",
       "packagesPath": "C:\\Users\\bmrmo\\.nuget\\packages\\",
-      "outputPath": "D:\\Source\\git\\ci\\testapi 2.0\\testapi2\\testapi2\\obj\\",
+      "outputPath": "D:\\Source\\git\\ci\\testapi 2.0\\testapi2\\travisci-2.0\\testapi2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

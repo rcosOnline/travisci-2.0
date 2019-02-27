@@ -1,6 +1,14 @@
 language: csharp
+
+services:
+  - docker
+
 solution: testapi2.sln
 mono: none
 dotnet: 2.1.502
+before_install:
+  - docker build -t littlefish/travisapi:1 ./testapi2
+
 script:
   - dotnet restore
+

@@ -5,7 +5,7 @@ EXPOSE 443
 
 FROM microsoft/dotnet:2.1-sdk AS build
 WORKDIR /src
-COPY ["testapi2/testapi2.csproj", "testapi2/"]
+COPY ["testapi2.csproj", "testapi2/"]
 RUN dotnet restore "testapi2/testapi2.csproj"
 COPY . .
 WORKDIR "/src/testapi2"

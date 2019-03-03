@@ -7,8 +7,13 @@ solution: testapi2.sln
 mono: none
 dotnet: 2.1.502
 before_install:
-  - docker build -t littlefish/travisapi:1 ./testapi2
+  - docker build -t littlefish/travisapi:$TRAVIS_BUILD_NUMBER ./testapi2
 
 script:
   - dotnet restore
 
+# deploy:
+#   - on:
+#       branch: dev
+#       condition: $TRAVIS_BRANCH != master
+#     upload-dir: 
